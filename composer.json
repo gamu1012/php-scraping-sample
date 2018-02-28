@@ -1,0 +1,20 @@
+{
+  "name": "gamu1012/php-scraping-sample",
+  "description": "PHPでのスクレイピングサンプル",
+  "type": "project",
+  "require": {
+    "fabpot/goutte": "^3.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "gamu1012",
+      "email": "gamu1012@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Gamu1012\\Scraping\\Sample\\": "src/"
+    }
+  }
+}
